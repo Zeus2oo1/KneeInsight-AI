@@ -8,9 +8,9 @@ An AI-powered knee health detection system that uses CNN and transfer learning (
 - **Pre-trained Models Available**: Download from the [Releases](../../releases) section.
 
 ## 📂 Project Structure
-- **app.py # Flask web application
-- **knee_detection_gg.py # Model training & evaluation
-- **templates/ # HTML templates for the web app
+- app.py  (Flask web application)
+- knee_detection_gg.py  (Model training & evaluation)
+- templates  (HTML templates for the web app)
 
 
 ## 📥 Pre-trained Models
