@@ -2,7 +2,7 @@
 An AI-powered knee health detection system that combines Deep Learning (Custom CNN, VGG16, InceptionV3) and Machine Learning (Random Forest, SVM, XGBoost) to classify knee X-ray images (Normal / Osteopenia / Osteoporosis). Includes a Flask web app for uploads and smart model selection based on per-model confidence and historical accuracy.
 
 ## Demo
-![Demo Preview](asset/Demo.gif)
+![Demo Preview](Asset/Demo.gif)
 
 
 ## 🚀 Features
