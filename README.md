@@ -15,13 +15,13 @@ An AI-powered knee health detection system that uses CNN and transfer learning (
 
 ## 📥 Pre-trained Models
 The trained models are **not stored directly in this repository** due to size limits.  
-You can download them from the [GitHub Releases](../../releases) page and place them in a `models/` folder in the root directory.
+You can download them from the [GitHub Releases](../../releases) page and place them in a `saved_models/` folder in the root directory.
 
 Example:
-- **/models
-- **cnn_model.h5
-- **vgg16_model.h5
-- **inceptionv3_model.h5
+- /models
+- cnn_model.h5
+- vgg16_model.h5
+- inceptionv3_model.h5
 
 
 ## 🛠 Installation
