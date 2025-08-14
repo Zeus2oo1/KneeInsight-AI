@@ -1,16 +1,16 @@
 # KneeInsight AI 🦵🤖
-An AI-powered knee health detection system that uses CNN and transfer learning (VGG16, InceptionV3) to classify knee X-ray images for early detection of potential issues.
+An AI-powered knee health detection system that combines Deep Learning (Custom CNN, VGG16, InceptionV3) and Machine Learning (Random Forest, SVM, XGBoost) to classify knee X-ray images (Normal / Osteopenia / Osteoporosis). Includes a Flask web app for uploads and smart model selection based on per-model confidence and historical accuracy.
 
 ## 🚀 Features
-- **Deep Learning Models**: CNN, VGG16, and InceptionV3 architectures trained on knee X-ray datasets.
-- **Web Interface**: Flask-based app for easy image upload and instant predictions.
-- **Multiple Model Support**: Choose between CNN, VGG16, or InceptionV3 for inference.
+- **Hybrid AI stack**: 3 Deep Learning models + 3 Machine Learning models.
+- **Web interface**: Flask + HTML/CSS/JS for instant predictions.
+- **Smart model selection**: Chooses the most trustworthy model per image.
 - **Pre-trained Models Available**: Download from the [Releases](../../releases) section.
 
 ## 📂 Project Structure
-- app.py  (Flask web application)
-- knee_detection_gg.py  (Model training & evaluation)
-- templates  (HTML templates for the web app)
+- **app.py**   # Flask web application
+- **knee_detection_gg.py**     # Model training & evaluation
+- **templates**     # HTML templates for the web app
 
 
 ## 📥 Pre-trained Models
@@ -19,9 +19,12 @@ You can download them from the [GitHub Releases](../../releases) page and place 
 
 Example:
 - /models
-- cnn_model.h5
+- custom_cnn.h5
 - vgg16_model.h5
 - inceptionv3_model.h5
+- random_forest.pkl
+- svm_model.pkl
+- xgboost_model.pkl
 
 
 ## 🛠 Installation
@@ -45,7 +48,7 @@ python app.py
 
 
 ## 🖼 Usage
-Open your browser and go to Localhost
+Open your browser and go to **[http://localhost:5000]**
 
 ## Upload a knee X-ray image.
 
@@ -54,6 +57,6 @@ Get instant classification results.
 
 ## 🔑 Keywords
 
-Knee X-ray AI, Medical Imaging AI, CNN Knee Detection, VGG16, InceptionV3, Flask AI App, Deep Learning Healthcare, Knee Health Prediction, Orthopedic AI.
+Knee X-ray AI, Medical Imaging AI, CNN Knee Detection, VGG16, InceptionV3, XGBoost, Random Forest, SVM, Flask AI App, Deep Learning Healthcare, Machine Learning Orthopedics, Hybrid AI Model, Osteoporosis Detection, Orthopedic AI.
 
 
