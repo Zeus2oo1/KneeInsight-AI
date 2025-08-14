@@ -1,6 +1,10 @@
 # KneeInsight AI 🦵🤖
 An AI-powered knee health detection system that combines Deep Learning (Custom CNN, VGG16, InceptionV3) and Machine Learning (Random Forest, SVM, XGBoost) to classify knee X-ray images (Normal / Osteopenia / Osteoporosis). Includes a Flask web app for uploads and smart model selection based on per-model confidence and historical accuracy.
 
+## Demo
+![Demo Preview](assets/demo.gif)
+
+
 ## 🚀 Features
 - **Hybrid AI stack**: 3 Deep Learning models + 3 Machine Learning models.
 - **Web interface**: Flask + HTML/CSS/JS for instant predictions.
